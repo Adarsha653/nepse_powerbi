@@ -1,0 +1,45 @@
+name: NEPSE hourly live extract
+
+on:
+  schedule:
+    # NEPSE ~Sun–Thu 11:00–15:30 NST (UTC+05:45) ≈ 05:15–09:45 UTC
+    # Run hourly in that UTC window, Sun–Thu (0–4)
+    - cron: "15 5-9 * * 0-4"
+  workflow_dispatch: {}
+
+jobs:
+  extract-and-upload:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Fetch NEPSE live data
+        env:
+          OUTPUT_DIR: output/live
+        run: python extract/fetch_live.py
+
+      - name: Upload to Google Drive
+        env:
+          GOOGLE_SERVICE_ACCOUNT_JSON: ${{ secrets.GOOGLE_SERVICE_ACCOUNT_JSON }}
+          DRIVE_FOLDER_ID: ${{ secrets.DRIVE_FOLDER_ID }}
+          UPLOAD_DIR: output/live
+        run: python scripts/upload_drive.py
+
+      - name: Upload artifacts (backup if Drive fails later)
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: nepse-live-${{ github.run_id }}
+          path: output/live/
+          retention-days: 7

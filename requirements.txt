@@ -1,0 +1,5 @@
+# NEPSE Pulse extract
+nepseman-api>=1.0.1
+openpyxl>=3.1.0
+google-api-python-client>=2.120.0
+google-auth>=2.28.0
