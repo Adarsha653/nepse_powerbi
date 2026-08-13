@@ -21,10 +21,13 @@ Hourly extract publishes to branch **`live-data`** (no Drive service-account upl
 
 Setup: [`docs/GITHUB_ACTIONS_SETUP.md`](docs/GITHUB_ACTIONS_SETUP.md)
 
-Power BI CSV URLs:
+Power BI CSV URLs (use jsDelivr — raw.githubusercontent can serve stale files):
 
 ```text
-https://raw.githubusercontent.com/Adarsha653/nepse_powerbi/live-data/live/market_snapshot.csv
+https://cdn.jsdelivr.net/gh/Adarsha653/nepse_powerbi@live-data/live/market_snapshot.csv
+https://cdn.jsdelivr.net/gh/Adarsha653/nepse_powerbi@live-data/live/suggestions.csv
+https://cdn.jsdelivr.net/gh/Adarsha653/nepse_powerbi@live-data/live/movers.csv
+https://cdn.jsdelivr.net/gh/Adarsha653/nepse_powerbi@live-data/live/meta.csv
 ```
 
 ## Mac setup (optional local fallback)

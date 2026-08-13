@@ -4,13 +4,13 @@ Clean light finance look. User picks watchlist via slicers. Suggestions are rank
 
 ## 0. Data source (GitHub live-data branch)
 
-After Actions runs, use **Get data → Web** with these CSVs:
+After Actions runs, use **Get data → Web** with these CSVs (jsDelivr — fresher than raw.githubusercontent cache):
 
 ```text
-https://raw.githubusercontent.com/Adarsha653/nepse_powerbi/live-data/live/market_snapshot.csv
-https://raw.githubusercontent.com/Adarsha653/nepse_powerbi/live-data/live/suggestions.csv
-https://raw.githubusercontent.com/Adarsha653/nepse_powerbi/live-data/live/movers.csv
-https://raw.githubusercontent.com/Adarsha653/nepse_powerbi/live-data/live/meta.csv
+https://cdn.jsdelivr.net/gh/Adarsha653/nepse_powerbi@live-data/live/market_snapshot.csv
+https://cdn.jsdelivr.net/gh/Adarsha653/nepse_powerbi@live-data/live/suggestions.csv
+https://cdn.jsdelivr.net/gh/Adarsha653/nepse_powerbi@live-data/live/movers.csv
+https://cdn.jsdelivr.net/gh/Adarsha653/nepse_powerbi@live-data/live/meta.csv
 ```
 
 Or download the `.xlsx` files from the `live-data` branch and load them as Excel.
@@ -22,7 +22,7 @@ Or download the `.xlsx` files from the `live-data` branch and load them as Excel
 1. Open **Power BI Desktop**
 2. **Home → Get data → Web**
 3. Paste:
-   `https://raw.githubusercontent.com/Adarsha653/nepse_powerbi/live-data/live/market_snapshot.csv`
+   `https://cdn.jsdelivr.net/gh/Adarsha653/nepse_powerbi@live-data/live/market_snapshot.csv`
 4. Load / Transform — set types:
    - `percent_change`, `ltp`, `turnover`, `qty`, … → Decimal
    - `is_suggested` → Whole number

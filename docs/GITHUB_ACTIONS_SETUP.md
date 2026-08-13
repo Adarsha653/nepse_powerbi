@@ -11,14 +11,16 @@ No Drive secrets required for the default setup.
 ## After each run, files appear at
 Branch: `live-data` → folder `live/`
 
-Raw CSV examples (for Power BI **Get data → Web**):
+Raw CSV examples (for Power BI **Get data → Web**) — prefer **jsDelivr**:
 
 ```text
-https://raw.githubusercontent.com/Adarsha653/nepse_powerbi/live-data/live/market_snapshot.csv
-https://raw.githubusercontent.com/Adarsha653/nepse_powerbi/live-data/live/suggestions.csv
-https://raw.githubusercontent.com/Adarsha653/nepse_powerbi/live-data/live/movers.csv
-https://raw.githubusercontent.com/Adarsha653/nepse_powerbi/live-data/live/meta.csv
+https://cdn.jsdelivr.net/gh/Adarsha653/nepse_powerbi@live-data/live/market_snapshot.csv
+https://cdn.jsdelivr.net/gh/Adarsha653/nepse_powerbi@live-data/live/suggestions.csv
+https://cdn.jsdelivr.net/gh/Adarsha653/nepse_powerbi@live-data/live/movers.csv
+https://cdn.jsdelivr.net/gh/Adarsha653/nepse_powerbi@live-data/live/meta.csv
 ```
+
+(`raw.githubusercontent.com/.../live-data/...` can stay stale; avoid it in Power BI.)
 
 Excel copies are in the same folder if you prefer downloading them.
 
