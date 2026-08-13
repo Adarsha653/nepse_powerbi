@@ -3,12 +3,14 @@ name: NEPSE hourly live extract
 on:
   schedule:
     # NEPSE ~Sun–Thu 11:00–15:30 NST (UTC+05:45) ≈ 05:15–09:45 UTC
-    # Run hourly in that UTC window, Sun–Thu (0–4)
     - cron: "15 5-9 * * 0-4"
   workflow_dispatch: {}
 
+permissions:
+  contents: write
+
 jobs:
-  extract-and-upload:
+  extract-and-publish:
     runs-on: ubuntu-latest
     timeout-minutes: 15
     steps:
@@ -27,16 +29,26 @@ jobs:
       - name: Fetch NEPSE live data
         env:
           OUTPUT_DIR: output/live
+          CI: "true"
         run: python extract/fetch_live.py
 
-      - name: Upload to Google Drive
+      - name: Publish live files to live-data branch
+        run: |
+          set -euo pipefail
+          rm -rf publish && mkdir -p publish/live
+          cp output/live/*.xlsx output/live/*.csv output/live/last_success.json publish/live/ 2>/dev/null || true
+          cd publish
+          git init
+          git checkout -b live-data
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git commit -m "NEPSE live refresh $(date -u +%Y-%m-%dT%H:%M:%SZ)"
+          git push -f "https://x-access-token:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git" live-data
         env:
-          GOOGLE_SERVICE_ACCOUNT_JSON: ${{ secrets.GOOGLE_SERVICE_ACCOUNT_JSON }}
-          DRIVE_FOLDER_ID: ${{ secrets.DRIVE_FOLDER_ID }}
-          UPLOAD_DIR: output/live
-        run: python scripts/upload_drive.py
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Upload artifacts (backup if Drive fails later)
+      - name: Upload artifacts
         if: always()
         uses: actions/upload-artifact@v4
         with:

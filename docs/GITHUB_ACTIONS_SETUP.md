@@ -1,51 +1,37 @@
-# GitHub Actions → Google Drive setup
+# GitHub Actions setup (updated)
 
-This runs the NEPSE extract on GitHub’s servers (Mac can be off) and uploads Excel files into your Drive `NEPSE_PowerBI/live` folder.
+Hourly job runs on GitHub (Mac can be off) and publishes files to the **`live-data`** branch.
 
-## 1. Create a Google Cloud service account
+> **Why not Google Drive service account?**  
+> Google no longer lets service accounts upload into a personal Gmail **My Drive** folder (`storageQuotaExceeded`). Shared Drives need Google Workspace. So we publish to GitHub instead.
 
-1. Open [Google Cloud Console](https://console.cloud.google.com/)
-2. Create/select a project (any name, e.g. `nepse-pulse`)
-3. **APIs & Services → Enable APIs** → enable **Google Drive API**
-4. **IAM & Admin → Service Accounts → Create**
-   - Name: `nepse-pulse-uploader`
-   - Skip optional permissions
-5. Open the service account → **Keys → Add key → JSON** → download the JSON file
-6. Copy the service account email (looks like `nepse-pulse-uploader@....iam.gserviceaccount.com`)
+## What you need
+No Drive secrets required for the default setup.
 
-## 2. Share your Drive folder with that email
+## After each run, files appear at
+Branch: `live-data` → folder `live/`
 
-1. In Google Drive (account **`adarsha.aryal653@gmail.com`**) open **`NEPSE_PowerBI` → `live`**
-2. **Share** → add the service account email → role **Editor**
-3. Copy the **folder ID** from the browser URL:
+Raw CSV examples (for Power BI **Get data → Web**):
 
 ```text
-https://drive.google.com/drive/folders/THIS_IS_THE_FOLDER_ID
+https://raw.githubusercontent.com/Adarsha653/nepse_powerbi/live-data/live/market_snapshot.csv
+https://raw.githubusercontent.com/Adarsha653/nepse_powerbi/live-data/live/suggestions.csv
+https://raw.githubusercontent.com/Adarsha653/nepse_powerbi/live-data/live/movers.csv
+https://raw.githubusercontent.com/Adarsha653/nepse_powerbi/live-data/live/meta.csv
 ```
 
-That `THIS_IS_THE_FOLDER_ID` value is `DRIVE_FOLDER_ID`.
+Excel copies are in the same folder if you prefer downloading them.
 
-## 3. Create the GitHub repo + secrets
+## Run manually
+Repo → **Actions** → **NEPSE hourly live extract** → **Run workflow**
 
-After the code is pushed to GitHub:
+## Optional: keep using your Drive folder
+Your cloud folder is ready:
 
-1. Repo → **Settings → Secrets and variables → Actions → New repository secret**
+`https://drive.google.com/drive/folders/1P_6an-_gb-l56xqvYGyvBwybcpXtNjum`
 
-| Secret name | Value |
-|-------------|--------|
-| `GOOGLE_SERVICE_ACCOUNT_JSON` | Full contents of the downloaded JSON key file (paste entire JSON) |
-| `DRIVE_FOLDER_ID` | The `live` folder ID from step 2 |
+You can **manually upload** the Excel files from Mac:
 
-## 4. Run it
+`/Users/aryal/Documents/nepse_powerbi/live/*.xlsx`
 
-- Automatic: Sun–Thu about every hour during NEPSE hours (UTC cron)
-- Manual: **Actions → NEPSE hourly live extract → Run workflow**
-
-## 5. Power BI
-
-Unchanged: Windows Power BI Desktop still reads from Google Drive  
-`adarsha.aryal653@gmail.com` → `NEPSE_PowerBI/live/*.xlsx` → click **Refresh**.
-
-## If the Action fails with 403 from NEPSE
-
-Cloud IPs are sometimes blocked. Then use Mac extract as fallback, or a Nepal VPS later.
+into that `live` folder for Power BI Desktop (Get data → Excel from Drive/local sync). Automated Drive upload would need **your** Google OAuth (not a service account).

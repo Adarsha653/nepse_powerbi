@@ -2,35 +2,32 @@
 
 Clean light finance look. User picks watchlist via slicers. Suggestions are ranked heuristics (not advice).
 
-## 0. One-time Google Drive on Windows
+## 0. Data source (GitHub live-data branch)
 
-1. Install Google Drive for Desktop and sign in with the **same** account that has `NEPSE_PowerBI`  
-   (Mac is using: `adarsha.aryal653@gmail.com`).
-2. Confirm you can see:
+After Actions runs, use **Get data → Web** with these CSVs:
 
-`My Drive / NEPSE_PowerBI / live /`
+```text
+https://raw.githubusercontent.com/Adarsha653/nepse_powerbi/live-data/live/market_snapshot.csv
+https://raw.githubusercontent.com/Adarsha653/nepse_powerbi/live-data/live/suggestions.csv
+https://raw.githubusercontent.com/Adarsha653/nepse_powerbi/live-data/live/movers.csv
+https://raw.githubusercontent.com/Adarsha653/nepse_powerbi/live-data/live/meta.csv
+```
 
-Files after Mac extract:
+Or download the `.xlsx` files from the `live-data` branch and load them as Excel.
 
-- `market_snapshot.xlsx` — full market (user selects symbols here)
-- `suggestions.xlsx` — top attractive candidates + reasons
-- `movers.xlsx` — gainers / losers / turnover
-- `meta.xlsx` — freshness (`pulled_at_local`, market open/closed)
+(Google Drive service-account auto-upload is blocked on personal Gmail; see `GITHUB_ACTIONS_SETUP.md`.)
 
 ## 1. Create the PBIX
 
 1. Open **Power BI Desktop**
-2. **Home → Get data → Excel workbook**
-3. Open `NEPSE_PowerBI/live/market_snapshot.xlsx` → select sheet **Market** → **Transform**
-4. Set types:
+2. **Home → Get data → Web**
+3. Paste:
+   `https://raw.githubusercontent.com/Adarsha653/nepse_powerbi/live-data/live/market_snapshot.csv`
+4. Load / Transform — set types:
    - `percent_change`, `ltp`, `turnover`, `qty`, … → Decimal
    - `is_suggested` → Whole number
-   - `business_date` → Date (or Date/Time as appropriate)
-5. **Close & Apply**
-6. Repeat **Get data** for:
-   - `suggestions.xlsx` → Suggestions
-   - `movers.xlsx` → Movers
-   - `meta.xlsx` → Meta
+5. Repeat **Get data → Web** for `suggestions.csv`, `movers.csv`, `meta.csv`
+6. Rename tables to `Market`, `Suggestions`, `Movers`, `Meta` if you want
 
 ## 2. Page 1 layout — “NEPSE Pulse”
 

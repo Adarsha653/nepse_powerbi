@@ -17,13 +17,14 @@ On Windows: sync the same Google account (`adarsha.aryal653@gmail.com`) and open
 
 ## GitHub Actions (Mac can be off)
 
-Hourly extract on GitHub → uploads Excel into Google Drive `NEPSE_PowerBI/live`.
+Hourly extract publishes to branch **`live-data`** (no Drive service-account upload — blocked on personal Gmail).
 
-Setup guide: [`docs/GITHUB_ACTIONS_SETUP.md`](docs/GITHUB_ACTIONS_SETUP.md)
+Setup: [`docs/GITHUB_ACTIONS_SETUP.md`](docs/GITHUB_ACTIONS_SETUP.md)
 
-```bash
-# manual test locally (writes output/live only)
-OUTPUT_DIR=output/live python3 extract/fetch_live.py
+Power BI CSV URLs:
+
+```text
+https://raw.githubusercontent.com/Adarsha653/nepse_powerbi/live-data/live/market_snapshot.csv
 ```
 
 ## Mac setup (optional local fallback)
