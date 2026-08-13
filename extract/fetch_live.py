@@ -125,21 +125,60 @@ def normalize_today_row(r: dict[str, Any]) -> dict[str, Any]:
     }
 
 
-def top_table(rows: list[dict[str, Any]], kind: str) -> list[dict[str, Any]]:
+def top_table(
+    rows: list[dict[str, Any]],
+    kind: str,
+    market_by_symbol: dict[str, dict[str, Any]] | None = None,
+) -> list[dict[str, Any]]:
+    """Build movers rows. Gainers/losers APIs omit volume fields; enrich from market snapshot."""
+    market_by_symbol = market_by_symbol or {}
     out = []
     for i, r in enumerate(rows, start=1):
+        symbol = (r.get("symbol") or "").strip().upper()
+        m = market_by_symbol.get(symbol, {})
+
+        ltp = safe_float(r.get("ltp"))
+        if ltp is None:
+            ltp = safe_float(r.get("closingPrice"))
+        if ltp is None:
+            ltp = safe_float(m.get("ltp"))
+
+        pct = safe_float(r.get("percentageChange"))
+        if pct is None:
+            pct = safe_float(m.get("percent_change"))
+
+        point = safe_float(r.get("pointChange"))
+        if point is None and ltp is not None and m.get("previous_close"):
+            prev = safe_float(m.get("previous_close"))
+            if prev is not None:
+                point = round(ltp - prev, 4)
+
+        turnover = safe_float(r.get("turnover") or r.get("totalTradedValue"))
+        if turnover is None:
+            turnover = safe_float(m.get("turnover"))
+
+        qty = safe_float(r.get("quantity") or r.get("totalTradedQuantity"))
+        if qty is None:
+            qty = safe_float(m.get("qty"))
+
+        trades = safe_float(r.get("totalTrades"))
+        if trades is None:
+            trades = safe_float(m.get("total_trades"))
+
+        name = r.get("securityName") or m.get("security_name")
+
         out.append(
             {
                 "rank": i,
                 "list_type": kind,
-                "symbol": (r.get("symbol") or "").strip().upper(),
-                "security_name": r.get("securityName"),
-                "ltp": safe_float(r.get("ltp")),
-                "percent_change": safe_float(r.get("percentageChange")),
-                "point_change": safe_float(r.get("pointChange")),
-                "turnover": safe_float(r.get("turnover") or r.get("totalTradedValue")),
-                "qty": safe_float(r.get("quantity") or r.get("totalTradedQuantity")),
-                "total_trades": safe_float(r.get("totalTrades")),
+                "symbol": symbol,
+                "security_name": name,
+                "ltp": ltp,
+                "percent_change": pct,
+                "point_change": point,
+                "turnover": turnover,
+                "qty": qty,
+                "total_trades": trades,
             }
         )
     return out
@@ -312,14 +351,15 @@ async def async_main() -> int:
         row["is_suggested"] = 1 if row["symbol"] in suggested_syms else 0
 
     movers = []
-    movers += top_table(raw["gainers"][:15], "gainer")
-    movers += top_table(raw["losers"][:15], "loser")
+    market_by_symbol = {r["symbol"]: r for r in market if r.get("symbol")}
+    movers += top_table(raw["gainers"][:15], "gainer", market_by_symbol)
+    movers += top_table(raw["losers"][:15], "loser", market_by_symbol)
     # turnover list shape can vary
     t_rows = []
     for r in raw["turnover"][:15]:
         if isinstance(r, dict):
             t_rows.append(r)
-    movers += top_table(t_rows, "turnover")
+    movers += top_table(t_rows, "turnover", market_by_symbol)
 
     is_open = str(status.get("isOpen", status.get("is_open", ""))).upper()
     meta = [
