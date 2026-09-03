@@ -1,0 +1,2 @@
+pulled_at_local,market_is_open,market_as_of,business_date,row_count_market,suggestion_count,source,disclaimer
+2026-09-03T09:50:48+00:00,CLOSE,2026-09-03T15:00:00,2026-09-03,346,15,nepseman-api / nepalstock (unofficial),"Educational use only. Suggestions are liquidity/momentum heuristics, not investment advice."

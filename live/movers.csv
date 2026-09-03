@@ -1,0 +1,46 @@
+rank,list_type,symbol,security_name,ltp,percent_change,point_change,turnover,qty,total_trades
+1,gainer,WNLB,Wean Nepal Laghubitta Bittiya Sanstha Limited,1055.0,8.76,85.0,2136884.2,2068.0,79.0
+2,gainer,CKHL,Chirkhwa Hydropower Limited ,615.0,8.56,48.5,378695.0,646.0,21.0
+3,gainer,ALBSL,Asha Laghubitta Bittiya Sanstha Ltd,1190.0,8.29,91.1,14359640.0,13128.0,119.0
+4,gainer,MKHC,Maya Khola Hydropower Company Limited,269.6,7.84,19.6,16787707.0,64064.0,385.0
+5,gainer,MEPDL,Mount Everest Power Development Limited,660.0,6.45,40.0,15734258.5,24744.0,1025.0
+6,gainer,RMF1,RBB Mutual Fund 1,9.5,5.32,0.48,185955.9,19600.0,13.0
+7,gainer,RSML,Reliance Spinning Mills Limited,2830.0,5.01,135.0,409088927.1,146528.0,1151.0
+8,gainer,ULBSL,Upakar Laghubitta Bittiya Sanstha Limited,2926.0,4.87,136.0,29260.0,10.0,1.0
+9,gainer,NBF3,Nabil Balanced Fund-3,9.54,4.72,0.43,73464.0,7800.0,11.0
+10,gainer,NMBHF2,NMB Hybrid Fund L- II,8.98,4.66,0.4,14829.0,1700.0,9.0
+11,gainer,MKCL,Muktinath Krishi Company Limited,899.9,4.64,39.9,1480542.8,1680.0,50.0
+12,gainer,CIT,Citizen Investment Trust,1719.9,3.81,63.2,19561162.3,11654.0,213.0
+13,gainer,JBBD87,Jyoti Bikash Bank Bond 2087,1170.0,3.27,37.0,507154.0,435.0,6.0
+14,gainer,H8020,Himalayan 80-20,12.0,3.27,0.38,44252744.11,3678997.0,181.0
+15,gainer,ULHC,Upper Lohore Khola Hydropower Company Limited,300.0,3.09,9.0,3035428.4,10180.0,89.0
+1,loser,PURE,Pure Energy Limited,662.0,-13.33,-101.8,6299466.1,8483.0,106.0
+2,loser,ANLB,Aatmanirbhar Laghubitta Bittiya Sanstha Limited,5023.5,-6.1,-326.5,5243840.0,1068.0,51.0
+3,loser,CFCL,Central Finance Co. Ltd.,598.4,-5.76,-36.6,68158258.6,116315.0,572.0
+4,loser,SMFBS,Swabhimaan Laghubitta Bittiya Sanstha Limited,1333.0,-4.38,-61.0,545882.0,403.0,15.0
+5,loser,SAGF,Sanima Growth Fund,9.63,-3.7,-0.37,51453.0,5200.0,2.0
+6,loser,SPL,Shuvam Power Limited,640.0,-3.61,-24.0,2858451.0,4541.0,30.0
+7,loser,KSBBL,Kamana Sewa Bikas Bank Limited,463.0,-3.54,-17.0,13028239.7,27883.0,164.0
+8,loser,NMBUR93/94,NMB Energy Bond 4% - 2093/94 ,909.0,-3.4,-32.0,72852.5,80.0,3.0
+9,loser,MMKJL,Mathillo Mailun Khola Jalvidhyut Limited,368.9,-3.28,-12.5,3163899.9,8438.0,79.0
+10,loser,RHPL,RASUWAGADHI HYDROPOWER COMPANY LIMITED,173.1,-3.19,-5.7,20265646.9,115868.0,502.0
+11,loser,LUK,Laxmi Unnati Kosh,9.4,-3.09,-0.3,2794.0,300.0,3.0
+12,loser,RBBF40,RBB Focus 40,9.0,-2.91,-0.27,6255.0,700.0,6.0
+13,loser,NIBLGF,NIBL Growth Fund,8.36,-2.79,-0.24,1696.0,200.0,2.0
+14,loser,SHINED,Shine Resunga Debenture,1096.0,-2.58,-29.0,28721.0,26.0,2.0
+15,loser,MKJC,Mailung Khola Jal Vidhyut Company Limited,290.0,-2.49,-7.4,13616384.5,47203.0,191.0
+1,turnover,RSML,Reliance Spinning Mills Limited,2830.0,5.0093,135.0,409088927.1,146528.0,1151.0
+2,turnover,TAMOR,Sanima Middle Tamor Hydropower Limited,503.0,-0.1984,-1.0,133288863.4,265982.0,555.0
+3,turnover,SOHL,Solu Hydropower Limited,650.5,-1.8854,-12.5,128695495.8,194626.0,1036.0
+4,turnover,SHIVM,SHIVAM CEMENTS LTD,661.0,0.4559,3.0,115080649.8,174067.0,605.0
+5,turnover,MEN,Mountain Energy Nepal Limited,627.1,0.8524,5.3,99625473.5,159060.0,297.0
+6,turnover,AKJCL,Ankhu Khola Jalvidhyut Company Ltd,340.3,-1.1618,-4.0,96217298.5,281818.0,452.0
+7,turnover,RIDI,Ridi Power Company Limited,344.0,-2.2727,-8.0,94660109.6,272952.0,493.0
+8,turnover,SMHL,Super Madi Hydropower Limited,527.0,-2.0446,-11.0,89040272.9,167364.0,696.0
+9,turnover,GBBL,Garima Bikas Bank Limited,436.3,2.4178,10.3,86002303.7,199020.0,502.0
+10,turnover,SYPNL,SY Panel Nepal Limited,1281.0,0.1172,1.5,75651849.4,58760.0,569.0
+11,turnover,UMHL,United Modi Hydropower Ltd.,562.4,0.6983,3.9,74596840.0,133544.0,174.0
+12,turnover,CFCL,Central Finance Co. Ltd.,598.4,-5.7638,-36.6,68158258.6,116315.0,572.0
+13,turnover,NRN,NRN Infrastructure and Development Limited,1391.0,-1.3475,-19.0,54158523.0,38921.0,265.0
+14,turnover,CHCL,Chilime Hydropower Company Limited,370.2,-1.8037,-6.8,50962073.7,137474.0,507.0
+15,turnover,NGPL,Ngadi Group Power Ltd.,388.0,-1.5228,-6.0,48511316.2,123903.0,265.0
