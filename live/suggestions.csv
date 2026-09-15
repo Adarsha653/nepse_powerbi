@@ -1,0 +1,16 @@
+rank,symbol,security_name,ltp,percent_change,turnover,qty,total_trades,attractiveness_score,suggestion_reason,is_suggested
+1,API,Api Power Company Ltd.,343.9,1.1471,284415814.0,825838.0,1736.0,79.79,High turnover (liquid); Active trading; Steady positive move,1
+2,SHIVM,SHIVAM CEMENTS LTD,681.0,1.6418,315697044.3,462655.0,1374.0,79.45,High turnover (liquid); Active trading; Steady positive move,1
+3,NRN,NRN Infrastructure and Development Limited,1468.0,1.3812,282950618.8,194242.0,718.0,75.88,High turnover (liquid); Steady positive move; Near 52-week low (higher risk),1
+4,LEC,Liberty Energy Company Limited,256.8,2.72,273332785.2,1062567.0,1303.0,73.45,High turnover (liquid); Active trading; Steady positive move,1
+5,RSML,Reliance Spinning Mills Limited,2879.0,-1.9414,327007876.4,111596.0,1326.0,70.28,High turnover (liquid); Active trading; Mid 52-week range,1
+6,NGPL,Ngadi Group Power Ltd.,417.0,3.99,137126877.1,331950.0,753.0,65.45,Decent turnover; Steady positive move; Mid 52-week range,1
+7,AKJCL,Ankhu Khola Jalvidhyut Company Ltd,353.0,2.6461,122416780.0,345701.0,851.0,64.78,Decent turnover; Steady positive move; Mid 52-week range,1
+8,SGHL,Sanigad Hydro Limited,508.3,1.4571,54387824.6,106605.0,1445.0,63.3,Active trading; Steady positive move; Mid 52-week range,1
+9,KBL,Kumari Bank Limited,221.6,2.1669,95120228.1,428456.0,984.0,62.97,Steady positive move; Mid 52-week range,1
+10,RIDI,Ridi Power Company Limited,355.0,1.4286,113904309.2,319097.0,722.0,62.25,Decent turnover; Steady positive move; Mid 52-week range,1
+11,GBIME,Global IME Bank Limited,257.1,1.6206,81181778.3,315862.0,821.0,59.39,Steady positive move; Mid 52-week range,1
+12,CHDC,CEDB Holdings Limited,2318.0,2.7938,115259596.7,49810.0,450.0,59.28,Decent turnover; Steady positive move; Mid 52-week range,1
+13,TAMOR,Sanima Middle Tamor Hydropower Limited,527.0,1.954,174212641.3,332158.0,888.0,58.54,Decent turnover; Steady positive move; Near 52-week high,1
+14,SYPNL,SY Panel Nepal Limited,1337.0,1.673,88663784.8,65873.0,633.0,58.14,Steady positive move; Mid 52-week range,1
+15,HDL,Himalayan Distillery Limited,1217.9,1.4072,83137603.0,68142.0,677.0,57.97,Steady positive move; Mid 52-week range,1

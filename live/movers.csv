@@ -1,0 +1,46 @@
+rank,list_type,symbol,security_name,ltp,percent_change,point_change,turnover,qty,total_trades
+1,gainer,DLBS,Dhaulagiri Laghubitta Bittiya Sanstha Limited,1119.0,14.96,145.6,2417320.8,2315.0,79.0
+2,gainer,SINDU,Sindhu Bikash Bank Ltd,450.0,11.03,44.7,30836693.2,71376.0,829.0
+3,gainer,MPFL,Multipurpose Finance Company  Limited,620.0,9.73,55.0,15116711.0,26160.0,135.0
+4,gainer,JFL,Janaki Finance Company Limited,295.0,8.06,22.0,14391595.3,50407.0,404.0
+5,gainer,MSHL,Mid Solu Hydropower Limited,560.0,6.67,35.0,1298361.9,2381.0,52.0
+6,gainer,JOSHI,Joshi Hydropower Development Company Ltd,271.8,6.13,15.7,9494681.9,35338.0,256.0
+7,gainer,TVCL,Trishuli Jal Vidhyut Company Limited ,317.6,5.87,17.6,5810002.2,18545.0,109.0
+8,gainer,SPIL,Siddhartha Premier Insurance Limited,639.0,5.79,35.0,28641784.4,45256.0,126.0
+9,gainer,NICBF,NIC Asia Balanced Fund,8.95,5.67,0.48,91019.45,10521.0,3.0
+10,gainer,BFC,Best Finance Company Ltd.,470.1,5.4,24.1,22218921.3,47958.0,225.0
+11,gainer,IHL,Ingwa Hydropower Limited,326.5,5.32,16.5,5386177.0,16907.0,114.0
+12,gainer,AHL,Asian Hydropower Limited,376.1,5.06,18.1,1936154.8,5222.0,77.0
+13,gainer,NICA,NIC Asia Bank Ltd.,329.9,5.06,15.9,47495504.9,146946.0,463.0
+14,gainer,SPDL,Synergy Power Development Ltd.,370.0,4.96,17.5,36330295.9,98941.0,281.0
+15,gainer,MEHL,Manakamana Engineering Hydropower Limited,255.0,4.94,12.0,34142823.6,134952.0,541.0
+1,loser,EBLD86,Everest Bank Limited,1090.0,-5.55,-64.0,55250.0,50.0,4.0
+2,loser,KBLD90,10% KBL Debenture 2090,1301.6,-3.0,-40.2,26032.0,20.0,2.0
+3,loser,BNL,Bottlers Nepal (Balaju) Limited,13515.0,-2.97,-414.2,540615.0,40.0,4.0
+4,loser,SBID83,10.25% Nepal SBI Bank Debenture 2083,1030.1,-2.82,-29.9,407908.5,395.0,8.0
+5,loser,RSML,Reliance Spinning Mills Limited,2879.0,-1.94,-57.0,327007876.4,111596.0,1326.0
+6,loser,EBLD91,Everest Bank Limited Debenture 2091,1090.0,-1.8,-20.0,38150.0,35.0,2.0
+7,loser,PBD88,10% Prime Debenture 2088,1180.0,-1.67,-20.0,59000.0,50.0,2.0
+8,loser,SAPIL,Sarvottam Paints Industries Limited,1420.0,-1.66,-24.0,51974282.4,36823.0,911.0
+9,loser,NIBLSTF,NIBL Stable Fund,8.36,-1.65,-0.14,12109.4,1470.0,7.0
+10,loser,NBF3,Nabil Balanced Fund-3,9.23,-1.39,-0.13,257373.0,27730.0,17.0
+11,loser,MND84/85,Muktinath Debenture 2084/85,1037.7,-1.36,-14.3,25942.5,25.0,1.0
+12,loser,NSIF2,NMB Sulav Investment Fund - 2,9.95,-1.29,-0.13,1103875.55,109398.0,15.0
+13,loser,ADBLD83,10.35% Agricultural Bank Debenture 2083,1038.0,-1.23,-12.9,571700.0,550.0,2.0
+14,loser,H8020,Himalayan 80-20,12.33,-1.2,-0.15,1338717.54,108436.0,31.0
+15,loser,CSY,Citizens Santulit Yojana,8.35,-1.18,-0.1,113294.0,13400.0,27.0
+1,turnover,RSML,Reliance Spinning Mills Limited,2879.0,-1.9414,-57.0,327007876.4,111596.0,1326.0
+2,turnover,SHIVM,SHIVAM CEMENTS LTD,681.0,1.6418,11.0,315697044.3,462655.0,1374.0
+3,turnover,API,Api Power Company Ltd.,343.9,1.1471,3.9,284415814.0,825838.0,1736.0
+4,turnover,NRN,NRN Infrastructure and Development Limited,1468.0,1.3812,20.0,282950618.8,194242.0,718.0
+5,turnover,LEC,Liberty Energy Company Limited,256.8,2.72,6.8,273332785.2,1062567.0,1303.0
+6,turnover,LSL,Laxmi Sunrise Bank Limited,236.3,3.0078,6.9,195606898.3,838214.0,694.0
+7,turnover,TAMOR,Sanima Middle Tamor Hydropower Limited,527.0,1.954,10.1,174212641.3,332158.0,888.0
+8,turnover,SOHL,Solu Hydropower Limited,654.0,-0.1527,-1.0,162221644.0,246236.0,1171.0
+9,turnover,NGPL,Ngadi Group Power Ltd.,417.0,3.99,16.0,137126877.1,331950.0,753.0
+10,turnover,GBBL,Garima Bikas Bank Limited,455.0,2.0179,9.0,135068454.1,298241.0,742.0
+11,turnover,SANIMA,Sanima Bank Limited,375.0,0.5362,2.0,133555278.5,356506.0,536.0
+12,turnover,AKJCL,Ankhu Khola Jalvidhyut Company Ltd,353.0,2.6461,9.1,122416780.0,345701.0,851.0
+13,turnover,CHDC,CEDB Holdings Limited,2318.0,2.7938,63.0,115259596.7,49810.0,450.0
+14,turnover,RIDI,Ridi Power Company Limited,355.0,1.4286,5.0,113904309.2,319097.0,722.0
+15,turnover,MEN,Mountain Energy Nepal Limited,651.0,0.6338,4.1,108971422.8,167193.0,499.0
