@@ -1,0 +1,46 @@
+rank,list_type,symbol,security_name,ltp,percent_change,point_change,turnover,qty,total_trades
+1,gainer,NLO,Nepal Lube Oil Limited,271.3,12.47,30.08,12882.9,49.0,5.0
+2,gainer,SONA,Sonapur Minerals And Oil Limited,434.9,7.65,30.9,183698370.1,435148.0,1804.0
+3,gainer,KSY,Kumari Sabal Yojana,9.53,7.56,0.67,17703.0,1920.0,12.0
+4,gainer,GCIL,Ghorahi Cement Industry Limited,401.3,7.07,26.5,73358755.8,184579.0,974.0
+5,gainer,CYCL,CYC Nepal Laghubitta Bittiya Sanstha Limited,1630.0,6.47,99.0,41168668.7,27028.0,258.0
+6,gainer,ICFCD83,12% ICFC Finance Limited Debenture 2083,967.2,4.99,46.0,967.2,1.0,1.0
+7,gainer,USLB,Unnati Sahakarya Laghubitta Bittiya Sanstha Limited,1144.0,4.67,51.0,4156635.7,3690.0,95.0
+8,gainer,SNORL,Snow Rivers Limited,899.0,4.65,39.91,36485370.9,41321.0,502.0
+9,gainer,PCIL,Palpa Cement Industries Limited,633.0,3.6,22.0,70490136.4,112324.0,1336.0
+10,gainer,TVCL,Trishuli Jal Vidhyut Company Limited ,305.0,3.04,9.0,4529515.9,15246.0,93.0
+11,gainer,MND84/85,Muktinath Debenture 2084/85,1100.0,3.0,32.0,2191600.0,2000.0,6.0
+12,gainer,NBLD87,8.5% Nepal Bank Debenture 2087,1091.8,3.0,31.8,10918.0,10.0,1.0
+13,gainer,EBLD85,10.50% Everest Bank Limited Debenture 2085,1136.0,2.99,33.0,3408.0,3.0,1.0
+14,gainer,NBLD85,Nabil Debenture 2085,1071.0,2.98,31.0,588525.0,550.0,3.0
+15,gainer,HLICF,HLI Large Cap Fund,8.66,2.97,0.25,33151425.0,3900250.0,17.0
+1,loser,MSHL,Mid Solu Hydropower Limited,550.0,-11.58,-72.0,7779131.4,13090.0,148.0
+2,loser,DLBS,Dhaulagiri Laghubitta Bittiya Sanstha Limited,1205.1,-10.19,-136.8,3143854.7,2694.0,87.0
+3,loser,C30MF,Citizens Super 30 Mutual Fund,9.75,-3.47,-0.35,103009.47,10581.0,10.0
+4,loser,HATHY,Hathway Investment Nepal Limited,452.9,-3.43,-16.1,119263596.2,264625.0,1357.0
+5,loser,JBBD87,Jyoti Bikash Bank Bond 2087,1135.0,-2.99,-35.0,28375.0,25.0,1.0
+6,loser,LUK,Laxmi Unnati Kosh,9.48,-2.97,-0.29,948.0,100.0,1.0
+7,loser,MATRI,Matribhumi Lagubitta Bittiya Sanstha Limited,727.1,-2.91,-21.8,357182.6,491.0,14.0
+8,loser,MKJC,Mailung Khola Jal Vidhyut Company Limited,329.3,-2.86,-9.7,12543155.2,37780.0,195.0
+9,loser,NCCD86,9.5% NCC Debenture 2086,1135.0,-2.83,-33.0,28375.0,25.0,1.0
+10,loser,GBIMESY2,Global IME Sammunat Yojana -2,9.0,-2.81,-0.26,15300.0,1700.0,5.0
+11,loser,PBLD87,8.5% Prabhu Bank Debenture 2087,1095.0,-2.67,-30.0,27375.0,25.0,1.0
+12,loser,NBF3,Nabil Balanced Fund-3,9.0,-2.49,-0.23,179932.0,19700.0,13.0
+13,loser,RBBD83,8.5% RBBL Debenture 2083,1022.1,-2.19,-22.9,25552.5,25.0,1.0
+14,loser,KBLD86,10.25% KBL Debenture 2086,1175.0,-2.16,-26.0,29375.0,25.0,1.0
+15,loser,RSY,Reliable Samriddhi Yojana,9.37,-2.09,-0.2,10301.0,1100.0,8.0
+1,turnover,SHIVM,SHIVAM CEMENTS LTD,702.0,2.1834,15.0,358109181.4,513243.0,1641.0
+2,turnover,HDL,Himalayan Distillery Limited,1312.0,2.6363,33.7,351666185.0,269776.0,1735.0
+3,turnover,TAMOR,Sanima Middle Tamor Hydropower Limited,533.8,-0.0375,-0.2,243539728.7,464282.0,1155.0
+4,turnover,RSML,Reliance Spinning Mills Limited,2754.0,1.1422,31.1,221456573.4,80716.0,538.0
+5,turnover,SONA,Sonapur Minerals And Oil Limited,434.9,7.6485,30.9,183698370.1,435148.0,1804.0
+6,turnover,NABILP,NABIL Bank Limited Promotor Share,310.0,0.0,0.0,156372680.0,504428.0,30.0
+7,turnover,LSL,Laxmi Sunrise Bank Limited,250.0,1.6673,4.1,137754858.1,554274.0,673.0
+8,turnover,HATHY,Hathway Investment Nepal Limited,452.9,-3.4328,-16.1,119263596.2,264625.0,1357.0
+9,turnover,NBL,Nepal Bank Limited,292.0,0.1715,0.5,92217218.0,315961.0,443.0
+10,turnover,KBL,Kumari Bank Limited,226.0,0.4444,1.0,83332212.4,369479.0,621.0
+11,turnover,LEC,Liberty Energy Company Limited,254.8,0.315,0.8,82783588.8,326188.0,566.0
+12,turnover,AKJCL,Ankhu Khola Jalvidhyut Company Ltd,358.0,0.0,0.0,80919663.8,226896.0,545.0
+13,turnover,SBL,Siddhartha Bank Limited,456.8,-0.0438,-0.2,80327678.1,175735.0,519.0
+14,turnover,RADHI,Radhi Bidyut Company Ltd,721.7,0.6555,4.7,77651207.7,107535.0,283.0
+15,turnover,RIDI,Ridi Power Company Limited,343.0,-0.4643,-1.6,75123617.4,218996.0,447.0

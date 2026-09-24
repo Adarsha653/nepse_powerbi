@@ -1,0 +1,10 @@
+{
+  "pulled_at_local": "2026-09-24T10:01:33+00:00",
+  "market_is_open": "CLOSE",
+  "market_as_of": "2026-09-24T15:00:00",
+  "business_date": "2026-09-24",
+  "row_count_market": 356,
+  "suggestion_count": 15,
+  "source": "nepseman-api / nepalstock (unofficial)",
+  "disclaimer": "Educational use only. Suggestions are liquidity/momentum heuristics, not investment advice."
+}
