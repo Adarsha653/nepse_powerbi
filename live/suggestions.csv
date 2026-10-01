@@ -1,0 +1,16 @@
+rank,symbol,security_name,ltp,percent_change,turnover,qty,total_trades,attractiveness_score,suggestion_reason,is_suggested
+1,SBL,Siddhartha Bank Limited,459.9,0.9881,305335453.3,666560.0,1597.0,80.7,High turnover (liquid); Active trading; Steady positive move,1
+2,API,Api Power Company Ltd.,341.0,1.791,228171612.0,673595.0,1229.0,80.43,High turnover (liquid); Steady positive move; Mid 52-week range,1
+3,PHCL,Peoples Hydropower Company Limited,340.5,2.0072,145869254.0,430430.0,1169.0,69.14,Decent turnover; Steady positive move; Mid 52-week range,1
+4,HATHY,Hathway Investment Nepal Limited,455.0,6.0606,219612961.1,484743.0,2332.0,68.77,High turnover (liquid); Active trading; Strong gain (watch volatility),1
+5,SYPNL,SY Panel Nepal Limited,1374.0,1.7778,142219094.4,102922.0,1142.0,68.43,Decent turnover; Steady positive move; Mid 52-week range,1
+6,HDHPC,Himal Dolakha Hydropower Company Limited,223.5,2.5229,108169615.8,483139.0,918.0,62.04,Decent turnover; Steady positive move; Mid 52-week range,1
+7,GHL,Ghalemdi Hydro Limited,273.6,0.7735,185144684.8,676519.0,1433.0,61.54,Decent turnover; Active trading; Steady positive move,1
+8,AKJCL,Ankhu Khola Jalvidhyut Company Ltd,353.7,1.0571,82437733.0,231649.0,543.0,55.46,Steady positive move; Mid 52-week range,1
+9,HURJA,Himalaya Urja Bikas Company Limited,260.0,1.5625,59250726.6,226689.0,448.0,51.6,Steady positive move; Mid 52-week range,1
+10,LSL,Laxmi Sunrise Bank Limited,258.0,1.7751,129427934.3,504687.0,783.0,50.67,Decent turnover; Steady positive move; Near 52-week high,1
+11,SSHL,Shiva Shree Hydropower Ltd,208.6,1.3605,45276606.2,215602.0,509.0,50.3,Steady positive move; Mid 52-week range,1
+12,KBL,Kumari Bank Limited,225.0,0.4913,51913412.6,231215.0,387.0,50.12,Steady positive move; Mid 52-week range,1
+13,NHPC,National Hydro Power Company Limited,261.6,0.6154,52555316.3,199421.0,335.0,49.76,Steady positive move; Mid 52-week range,1
+14,BHL,Balephi Hydropower Limited,214.7,2.1408,33405941.9,156150.0,537.0,48.98,Steady positive move; Mid 52-week range,1
+15,GLH,GreenLife Hydropower Limited,279.8,1.0838,36651852.3,130960.0,392.0,48.16,Steady positive move; Mid 52-week range,1
