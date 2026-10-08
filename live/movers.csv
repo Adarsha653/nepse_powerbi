@@ -1,0 +1,46 @@
+rank,list_type,symbol,security_name,ltp,percent_change,point_change,turnover,qty,total_trades
+1,gainer,KBSH,Kutheli Bukhari Small Hydropower Limited,924.6,15.0,120.6,50942759.9,57498.0,707.0
+2,gainer,SNORL,Snow Rivers Limited,878.0,6.4,52.8,49157974.5,57321.0,503.0
+3,gainer,LVF2,Laxmi Value Fund 2,9.54,6.0,0.54,61516.0,6500.0,7.0
+4,gainer,MMF1,Mega Mutual Fund -1,8.83,6.0,0.5,94039.5,10705.0,22.0
+5,gainer,CKHL,Chirkhwa Hydropower Limited ,531.0,5.15,26.0,2720748.0,5459.0,88.0
+6,gainer,PBD93,"6.25% Prime Bank Debenture, 2093",1160.0,3.94,44.0,12855140.0,11165.0,37.0
+7,gainer,NHPC,National Hydro Power Company Limited,268.0,3.92,10.1,95218263.9,357148.0,895.0
+8,gainer,SONA,Sonapur Minerals And Oil Limited,430.0,3.61,15.0,119903814.4,282478.0,1181.0
+9,gainer,BNL,Bottlers Nepal (Balaju) Limited,14625.9,3.0,425.9,146259.0,10.0,1.0
+10,gainer,NICBF,NIC Asia Balanced Fund,9.53,2.92,0.27,953.0,100.0,1.0
+11,gainer,SMH,Super Mai Hydropower Limited,517.0,2.78,14.0,5907227.3,11570.0,75.0
+12,gainer,DORDI,Dordi Khola Jal Bidyut Company Limited,264.1,2.76,7.1,16563780.3,63001.0,322.0
+13,gainer,GBILD86/87,Global IME Bank Limited Debenture 2086/87,1120.0,2.75,30.0,72800.0,65.0,1.0
+14,gainer,BHL,Balephi Hydropower Limited,218.8,2.72,5.8,84848741.2,389323.0,1101.0
+15,gainer,GCIL,Ghorahi Cement Industry Limited,391.4,2.65,10.1,15096917.0,39291.0,260.0
+1,loser,RMF2,RBB Mutual Fund 2,9.0,-8.07,-0.79,193644.0,20400.0,4.0
+2,loser,GHL,Ghalemdi Hydro Limited,286.0,-3.02,-8.9,260655323.23,896098.0,1501.0
+3,loser,MABEL,Mabilung Energy Limited,516.2,-2.97,-15.8,5594185.7,10835.0,143.0
+4,loser,SBLD2091,7.25% SBL Debenture 2091,1124.0,-2.94,-34.0,142850.0,127.0,4.0
+5,loser,SBID2090,7% Nepal SBI Bank Debenture 2090,1092.0,-2.93,-33.0,2184.0,2.0,1.0
+6,loser,RBBF40,RBB Focus 40,9.01,-2.91,-0.27,26645.0,3000.0,7.0
+7,loser,CBLD88,Civil Bank Debenture 2088,1195.0,-2.85,-35.0,65900.0,55.0,3.0
+8,loser,GMFBS,Ganapati Laghubitta Bittiya Sanstha Limited,1040.7,-2.85,-30.5,98358.8,92.0,8.0
+9,loser,SBCF,Sunrise Bluechip Fund,9.09,-2.78,-0.26,96450.0,10600.0,9.0
+10,loser,SIGS2,Siddhartha Investment Growth Scheme - 2,9.31,-2.72,-0.26,9310.0,1000.0,2.0
+11,loser,SWASTIK,Swastik Laghubitta Bittiya Sanstha Limited,1675.0,-2.62,-45.0,1297788.3,771.0,35.0
+12,loser,MLBS,Manushi Laghubitta Bittiya Sanstha Limited,972.0,-2.61,-26.0,39660.0,40.0,3.0
+13,loser,BANDIPUR,Bandipur Cablecar and Tourism Limited,587.0,-2.51,-15.1,13324121.8,22472.0,359.0
+14,loser,CYCL,CYC Nepal Laghubitta Bittiya Sanstha Limited,1450.2,-2.34,-34.8,14671775.8,10019.0,167.0
+15,loser,GBILD84/85,"Global IME Bank Debenture, 2084/85",1135.0,-2.16,-25.0,34125.0,30.0,3.0
+1,turnover,GHL,Ghalemdi Hydro Limited,286.0,-3.018,-8.9,260655323.23,896098.0,1501.0
+2,turnover,HDHPC,Himal Dolakha Hydropower Company Limited,228.3,2.3767,5.3,192381802.7,843709.0,1675.0
+3,turnover,PHCL,Peoples Hydropower Company Limited,337.0,-2.0349,-7.0,140948591.3,412098.0,696.0
+4,turnover,SONA,Sonapur Minerals And Oil Limited,430.0,3.6145,15.0,119903814.4,282478.0,1181.0
+5,turnover,HPPL,Himalayan Power Partner Ltd.,400.0,2.0408,8.0,114905772.1,287658.0,973.0
+6,turnover,AKJCL,Ankhu Khola Jalvidhyut Company Ltd,351.0,-0.5666,-2.0,108503940.9,308861.0,285.0
+7,turnover,NHPC,National Hydro Power Company Limited,268.0,3.9162,10.1,95218263.9,357148.0,895.0
+8,turnover,LSL,Laxmi Sunrise Bank Limited,255.8,-0.0781,-0.2,90750399.2,355343.0,370.0
+9,turnover,KBL,Kumari Bank Limited,227.8,0.7519,1.7,88496916.1,388646.0,614.0
+10,turnover,GLH,GreenLife Hydropower Limited,277.6,0.1804,0.5,87008048.4,311143.0,701.0
+11,turnover,BHL,Balephi Hydropower Limited,218.8,2.723,5.8,84848741.2,389323.0,1101.0
+12,turnover,LSD92,7% Laxmi Sunrise Debenture 2092,1150.0,-0.8621,-10.0,81477480.0,68891.0,186.0
+13,turnover,SHIVM,SHIVAM CEMENTS LTD,681.7,1.5946,10.7,77728733.3,114820.0,387.0
+14,turnover,RSML,Reliance Spinning Mills Limited,2672.9,-0.4877,-13.1,71894397.3,26984.0,381.0
+15,turnover,LEC,Liberty Energy Company Limited,252.8,-1.6342,-4.2,65613796.9,257667.0,537.0
