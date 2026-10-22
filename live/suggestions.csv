@@ -1,0 +1,16 @@
+rank,symbol,security_name,ltp,percent_change,turnover,qty,total_trades,attractiveness_score,suggestion_reason,is_suggested
+1,NIMB,Nepal Investment Mega Bank Limited,206.2,3.3584,182912192.2,894286.0,1307.0,95.7,High turnover (liquid); Active trading; Steady positive move,1
+2,GVL,Green Ventures Limited,548.3,1.7254,175863787.1,321603.0,849.0,87.32,High turnover (liquid); Active trading; Steady positive move,1
+3,GHL,Ghalemdi Hydro Limited,310.9,2.2697,204930344.0,666863.0,902.0,80.8,High turnover (liquid); Active trading; Steady positive move,1
+4,BHL,Balephi Hydropower Limited,225.7,0.5345,117705550.2,517973.0,1122.0,80.14,Decent turnover; Active trading; Steady positive move,1
+5,HDL,Himalayan Distillery Limited,1309.0,0.8552,133782264.5,102297.0,568.0,74.8,High turnover (liquid); Steady positive move; Mid 52-week range,1
+6,PHCL,Peoples Hydropower Company Limited,346.5,1.3751,115246181.7,332025.0,711.0,73.37,Decent turnover; Steady positive move; Mid 52-week range,1
+7,RIDI,Ridi Power Company Limited,344.9,0.5833,113128675.0,326538.0,611.0,71.43,Decent turnover; Steady positive move; Mid 52-week range,1
+8,API,Api Power Company Ltd.,345.0,0.5831,152957314.2,443463.0,754.0,66.39,High turnover (liquid); Steady positive move,1
+9,MEN,Mountain Energy Nepal Limited,671.0,0.9326,116501269.0,173479.0,786.0,61.77,Decent turnover; Active trading; Steady positive move,1
+10,TAMOR,Sanima Middle Tamor Hydropower Limited,574.9,3.2136,126613545.4,222722.0,487.0,59.17,Decent turnover; Steady positive move; Near 52-week high,1
+11,SHIVM,SHIVAM CEMENTS LTD,682.9,0.5744,73664609.5,107628.0,269.0,58.49,Decent turnover; Steady positive move; Mid 52-week range,1
+12,KBL,Kumari Bank Limited,238.4,0.1681,173549805.6,727272.0,950.0,56.41,High turnover (liquid); Active trading,1
+13,PRVU,Prabhu  Bank Limited,192.8,0.7315,42907873.2,222438.0,515.0,56.26,Steady positive move; Mid 52-week range,1
+14,HBL,Himalayan Bank Limited,205.0,1.4851,28076696.2,137908.0,539.0,53.73,Steady positive move; Mid 52-week range,1
+15,ADBL,Agricultural Development Bank Limited,339.3,1.6477,78182376.7,232077.0,598.0,51.41,Decent turnover; Steady positive move; Near 52-week high,1
