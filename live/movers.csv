@@ -1,0 +1,46 @@
+rank,list_type,symbol,security_name,ltp,percent_change,point_change,turnover,qty,total_trades
+1,gainer,BENH,Beni Hydropower Project Limited,617.2,15.0,80.5,824247.6,1338.0,89.0
+2,gainer,SOPL,Sopan Pharmaceuticals Limited,673.0,8.72,54.0,50411991.3,76828.0,1065.0
+3,gainer,NRIC,Nepal Reinsurance Company Limited,834.3,5.61,44.3,31518051.2,39056.0,311.0
+4,gainer,NFS,Nepal Finance Ltd.,500.0,5.49,26.0,7233664.1,14699.0,167.0
+5,gainer,NICA,NIC Asia Bank Ltd.,335.0,4.69,15.0,75491889.5,229197.0,641.0
+6,gainer,KHPL,Kalinchock Hydropower Limited,663.0,4.41,28.0,9617897.5,14642.0,187.0
+7,gainer,YMHL,Yambaling Hydropower Limited,474.0,4.41,20.0,15162476.8,32359.0,425.0
+8,gainer,SBL,Siddhartha Bank Limited,454.8,4.31,18.8,253839289.4,566094.0,818.0
+9,gainer,SGHC,Swet-Ganga Hydropower & Construction Limited ,319.9,4.24,13.0,84161924.0,263874.0,874.0
+10,gainer,RURU,Ru Ru Jalbidhyut Pariyojana Limited,640.0,3.88,23.9,6905540.1,11029.0,99.0
+11,gainer,LBBL,Lumbini Bikas Bank Ltd.,514.0,3.84,19.0,112363042.7,223081.0,463.0
+12,gainer,GMFIL,Guheshowori Merchant Bank & Finance Co. Ltd.,434.0,3.8,15.9,7244708.0,16903.0,105.0
+13,gainer,SHL,Soaltee Hotel Limited,538.7,3.64,18.9,83791582.2,158058.0,320.0
+14,gainer,NRM,Nepal Republic Media Limited,296.0,3.5,10.0,3739815.0,12885.0,124.0
+15,gainer,MSHL,Mid Solu Hydropower Limited,550.0,3.46,18.4,59382234.9,109985.0,291.0
+1,loser,NRN,NRN Infrastructure and Development Limited,1397.0,-3.65,-52.9,81111680.7,58182.0,442.0
+2,loser,LEC,Liberty Energy Company Limited,242.0,-3.2,-8.0,147513892.0,601733.0,1246.0
+3,loser,CKHL,Chirkhwa Hydropower Limited ,493.0,-3.14,-16.0,4364664.3,8731.0,91.0
+4,loser,SBCF,Sunrise Bluechip Fund,9.3,-2.82,-0.27,6975.0,750.0,2.0
+5,loser,HLICF,HLI Large Cap Fund,8.36,-2.79,-0.24,4605.5,550.0,5.0
+6,loser,RBCL,Rastriya Beema Company Limited,14100.0,-2.73,-396.0,5019709.0,356.0,17.0
+7,loser,RBBD83,8.5% RBBL Debenture 2083,1031.4,-2.67,-28.3,51535.0,50.0,2.0
+8,loser,KBLD86,10.25% KBL Debenture 2086,1220.0,-2.32,-29.0,26840.0,22.0,1.0
+9,loser,SBID89,9% Nepal SBI Bank Rinpatra 2089,1162.0,-2.19,-26.0,17430.0,15.0,1.0
+10,loser,EBLD91,Everest Bank Limited Debenture 2091,1215.0,-2.17,-27.0,290754.0,235.0,2.0
+11,loser,BEDC,Bhugol Energy Development Company Limited,302.6,-2.04,-6.3,4414231.9,14487.0,100.0
+12,loser,MFLD85,9.5% Manjushree Finance Limited Debenture 2085,1090.0,-2.01,-22.4,27250.0,25.0,1.0
+13,loser,ULHC,Upper Lohore Khola Hydropower Company Limited,323.0,-1.97,-6.5,2283834.4,7095.0,55.0
+14,loser,SAPIL,Sarvottam Paints Industries Limited,1144.0,-1.79,-20.8,15283797.8,13466.0,181.0
+15,loser,NSIF2,NMB Sulav Investment Fund - 2,10.12,-1.75,-0.18,188743.0,18550.0,11.0
+1,turnover,GHL,Ghalemdi Hydro Limited,335.0,2.7607,9.0,356168505.0,1064075.0,1367.0
+2,turnover,SBL,Siddhartha Bank Limited,454.8,4.3119,18.8,253839289.4,566094.0,818.0
+3,turnover,LSL,Laxmi Sunrise Bank Limited,281.0,2.9304,8.0,242792905.1,869367.0,1250.0
+4,turnover,KBL,Kumari Bank Limited,243.1,1.2917,3.1,235955433.2,973271.0,1368.0
+5,turnover,GVL,Green Ventures Limited,581.2,0.5362,3.1,231872104.5,398988.0,867.0
+6,turnover,SOHL,Solu Hydropower Limited,659.0,1.5408,10.0,193502778.9,294673.0,1119.0
+7,turnover,NIMB,Nepal Investment Mega Bank Limited,213.8,3.0858,6.4,187463905.7,885386.0,1491.0
+8,turnover,SHIVM,SHIVAM CEMENTS LTD,699.0,0.1576,1.1,182198526.4,259967.0,766.0
+9,turnover,SANIMA,Sanima Bank Limited,417.0,1.8564,7.6,175050277.5,423667.0,855.0
+10,turnover,BPCL,Butwal Power Company Limited,727.1,1.1406,8.2,162640443.5,224633.0,753.0
+11,turnover,PHCL,Peoples Hydropower Company Limited,363.3,-1.2772,-4.7,159889249.7,439417.0,844.0
+12,turnover,TAMOR,Sanima Middle Tamor Hydropower Limited,601.8,1.484,8.8,158286403.2,264286.0,666.0
+13,turnover,API,Api Power Company Ltd.,348.0,-0.5146,-1.8,149230564.2,427889.0,916.0
+14,turnover,LEC,Liberty Energy Company Limited,242.0,-3.2,-8.0,147513892.0,601733.0,1246.0
+15,turnover,GBIME,Global IME Bank Limited,261.0,1.993,5.1,146140708.3,564735.0,946.0
