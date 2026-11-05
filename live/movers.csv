@@ -1,0 +1,46 @@
+rank,list_type,symbol,security_name,ltp,percent_change,point_change,turnover,qty,total_trades
+1,gainer,KSY,Kumari Sabal Yojana,9.38,2.96,0.27,15894.0,1700.0,3.0
+2,gainer,SNORL,Snow Rivers Limited,804.9,2.86,22.4,19408754.0,24249.0,224.0
+3,gainer,AHL,Asian Hydropower Limited,376.0,2.7,9.9,590358.6,1594.0,32.0
+4,gainer,CBLD88,Civil Bank Debenture 2088,1260.0,2.69,33.0,5040.0,4.0,1.0
+5,gainer,KEF,Kumari Equity Fund,9.8,2.62,0.25,106724.2,11049.0,8.0
+6,gainer,MERO,Mero Microfinance Bittiya Sanstha Ltd.,629.9,2.42,14.9,25155432.4,40563.0,114.0
+7,gainer,BGWT,Bhagawati Hydropower Development Company Limited,507.0,2.38,11.8,1939233.0,3868.0,50.0
+8,gainer,AKJCL,Ankhu Khola Jalvidhyut Company Ltd,346.0,2.37,8.0,181929603.8,525247.0,902.0
+9,gainer,CBBL,Chhimek Laghubitta Bittiya Sanstha Limited,989.8,2.04,19.8,122500794.8,123779.0,805.0
+10,gainer,SIGS3,Siddhartha Investment Growth Scheme 3,10.68,2.01,0.21,233010.8,22160.0,6.0
+11,gainer,KDBY,Kumari Dhanabriddhi Yojana,10.49,1.84,0.19,487024.0,46800.0,21.0
+12,gainer,GBILD84/85,"Global IME Bank Debenture, 2084/85",1115.0,1.83,20.0,50075.0,45.0,2.0
+13,gainer,SEF2,Siddhartha Equity Fund 2,9.87,1.54,0.15,467886.4,47520.0,49.0
+14,gainer,NIBSF2,NIBL Samriddhi Fund -2,8.95,1.36,0.12,12450.0,1400.0,5.0
+15,gainer,CFCL,Central Finance Co. Ltd.,605.0,1.34,8.0,112080729.6,186225.0,453.0
+1,loser,KBLD86,10.25% KBL Debenture 2086,1123.2,-5.09,-60.2,127209.1,112.0,6.0
+2,loser,CKHL,Chirkhwa Hydropower Limited ,424.5,-4.61,-20.5,8653156.8,20076.0,186.0
+3,loser,HRL,Himalayan Reinsurance Limited,514.0,-3.75,-20.0,78529293.8,151224.0,1188.0
+4,loser,USLB,Unnati Sahakarya Laghubitta Bittiya Sanstha Limited,961.6,-3.65,-36.4,1755064.7,1813.0,38.0
+5,loser,BJHL,Bhujung Hydropower Limited,554.0,-3.65,-21.0,2522557.5,4553.0,61.0
+6,loser,GCIL,Ghorahi Cement Industry Limited,406.0,-3.33,-14.0,13463592.9,33263.0,211.0
+7,loser,RFPL,River Falls Power Limited,367.5,-3.03,-11.5,17087612.8,46410.0,214.0
+8,loser,SAPIL,Sarvottam Paints Industries Limited,1093.9,-3.02,-34.1,19347354.9,17790.0,241.0
+9,loser,ECL,Everest Colour Limited,1271.0,-2.98,-39.0,25764817.0,19617.0,209.0
+10,loser,SBID2090,7% Nepal SBI Bank Debenture 2090,1077.0,-2.97,-33.0,5385.0,5.0,1.0
+11,loser,CIZBD90,10% Citizens Bank Debenture 2090,1242.0,-2.87,-36.7,31050.0,25.0,1.0
+12,loser,KHPL,Kalinchock Hydropower Limited,609.0,-2.87,-18.0,4431075.1,7263.0,110.0
+13,loser,APHL,Appolo Hydropower Limited,558.0,-2.62,-15.0,2361600.0,4213.0,68.0
+14,loser,MCHL,Menchhiyam Hydropower Limited,253.6,-2.42,-6.3,323004.0,1270.0,15.0
+15,loser,NBF3,Nabil Balanced Fund-3,9.07,-2.26,-0.21,190389.9,20970.0,16.0
+1,turnover,AKJCL,Ankhu Khola Jalvidhyut Company Ltd,346.0,2.3669,8.0,181929603.8,525247.0,902.0
+2,turnover,NRIC,Nepal Reinsurance Company Limited,919.0,-0.2929,-2.7,147555986.6,156968.0,1269.0
+3,turnover,GHL,Ghalemdi Hydro Limited,324.0,-0.9174,-3.0,140336732.4,431613.0,701.0
+4,turnover,API,Api Power Company Ltd.,333.0,-0.9813,-3.3,139688159.2,418927.0,1224.0
+5,turnover,NICA,NIC Asia Bank Ltd.,350.1,-1.8503,-6.6,129949434.9,370399.0,1021.0
+6,turnover,CBBL,Chhimek Laghubitta Bittiya Sanstha Limited,989.8,2.0412,19.8,122500794.8,123779.0,805.0
+7,turnover,RADHI,Radhi Bidyut Company Ltd,725.0,0.0,0.0,118327216.9,164549.0,147.0
+8,turnover,CFCL,Central Finance Co. Ltd.,605.0,1.34,8.0,112080729.6,186225.0,453.0
+9,turnover,LBBL,Lumbini Bikas Bank Ltd.,522.0,-2.2472,-12.0,109920585.3,210097.0,360.0
+10,turnover,SHIVM,SHIVAM CEMENTS LTD,683.8,-0.1752,-1.2,100988035.7,148288.0,523.0
+11,turnover,PHCL,Peoples Hydropower Company Limited,353.0,-1.3691,-4.9,97618335.2,276240.0,511.0
+12,turnover,GBIME,Global IME Bank Limited,265.2,-1.0078,-2.7,95348974.1,360465.0,682.0
+13,turnover,RSML,Reliance Spinning Mills Limited,2624.0,-0.5269,-13.9,93020144.0,35709.0,311.0
+14,turnover,LSL,Laxmi Sunrise Bank Limited,268.0,-1.1799,-3.2,89453803.7,333993.0,413.0
+15,turnover,HRL,Himalayan Reinsurance Limited,514.0,-3.7453,-20.0,78529293.8,151224.0,1188.0
