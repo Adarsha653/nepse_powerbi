@@ -1,0 +1,46 @@
+rank,list_type,symbol,security_name,ltp,percent_change,point_change,turnover,qty,total_trades
+1,gainer,CREST,Crest Micro Life Insurance Limited,1192.0,14.08,147.1,20338469.9,19655.0,251.0
+2,gainer,BENH,Beni Hydropower Project Limited,840.0,5.78,45.9,46994108.7,56719.0,1898.0
+3,gainer,RBCL,Rastriya Beema Company Limited,14200.0,3.42,470.0,1642400.0,116.0,7.0
+4,gainer,NMBMF,NMB  Microfinance Bittiya Sanstha Ltd.,618.0,3.19,19.1,3883218.4,6320.0,65.0
+5,gainer,CKHL,Chirkhwa Hydropower Limited ,438.0,3.18,13.5,16803126.3,39464.0,173.0
+6,gainer,CCBD88,Century Debenture 2088,1282.3,3.0,37.3,63307.5,50.0,2.0
+7,gainer,GBILD86/87,Global IME Bank Limited Debenture 2086/87,1134.0,3.0,33.0,96390.0,85.0,2.0
+8,gainer,SBLD89,10.75% SBL Debenture 2089,1288.0,2.92,36.6,12880.0,10.0,1.0
+9,gainer,MEPDL,Mount Everest Power Development Limited,568.0,2.9,16.0,19383430.0,34134.0,372.0
+10,gainer,MKCL,Muktinath Krishi Company Limited,744.9,2.89,20.9,1500206.1,2058.0,40.0
+11,gainer,SBLD2091,7.25% SBL Debenture 2091,1130.0,2.73,30.0,56375.0,50.0,2.0
+12,gainer,RMF2,RBB Mutual Fund 2,9.6,2.67,0.25,113357.0,11900.0,4.0
+13,gainer,ILBS,Infinity Laghubitta Bittiya Sanstha Limited,965.0,2.65,24.9,451950.9,482.0,15.0
+14,gainer,SMH,Super Mai Hydropower Limited,565.0,2.62,14.4,12942757.2,23126.0,99.0
+15,gainer,LSL,Laxmi Sunrise Bank Limited,274.9,2.57,6.9,43945770.1,161994.0,234.0
+1,loser,GCIL,Ghorahi Cement Industry Limited,380.0,-6.4,-26.0,216348988.7,562826.0,1281.0
+2,loser,NRIC,Nepal Reinsurance Company Limited,885.0,-3.7,-34.0,44030705.7,48995.0,334.0
+3,loser,KDL,Kalinchowk Darshan Limited,498.2,-2.7,-13.8,19139435.6,38118.0,376.0
+4,loser,GLBSL,Gurans Laghubitta Bittiya Sanstha Limited,1440.0,-2.64,-39.0,138678.0,96.0,7.0
+5,loser,KSY,Kumari Sabal Yojana,9.16,-2.35,-0.22,641800.0,70000.0,5.0
+6,loser,NIFRAUR85/86,NIFRA Uraj Rinpatra7%-2085/86,1045.0,-2.34,-25.0,26125.0,25.0,1.0
+7,loser,ACLBSL,Aarambha Chautari Laghubitta Bittiya Sanstha Limited,817.5,-1.88,-15.7,2832025.3,3471.0,59.0
+8,loser,BPCL,Butwal Power Company Limited,694.0,-1.7,-12.0,34279197.7,48867.0,165.0
+9,loser,BJHL,Bhujung Hydropower Limited,545.0,-1.62,-9.0,3521421.6,6487.0,75.0
+10,loser,NMLBBL,Nerude Mirmire Laghubitta Bittiya Sanstha Limited,485.0,-1.62,-8.0,997179.0,2054.0,21.0
+11,loser,GBLBS,Grameen Bikas Laghubitta Bittiya Sanstha Ltd.,641.3,-1.57,-10.2,1609046.4,2496.0,26.0
+12,loser,TPKHL,Taksar Pikhuwa Khola Hydropower Limited,426.1,-1.57,-6.8,7311151.0,17015.0,220.0
+13,loser,UNHPL,Union Hydropower Limited,357.2,-1.57,-5.7,3499723.4,9732.0,57.0
+14,loser,MBL,Machhapuchhre Bank Limited,266.0,-1.48,-4.0,33122062.7,123989.0,111.0
+15,loser,DHPL,Dibyashwori Hydropower Ltd.,269.0,-1.47,-4.0,377543.6,1405.0,11.0
+1,turnover,GCIL,Ghorahi Cement Industry Limited,380.0,-6.4039,-26.0,216348988.7,562826.0,1281.0
+2,turnover,SGHC,Swet-Ganga Hydropower & Construction Limited ,332.0,0.6061,2.0,127950368.4,388663.0,813.0
+3,turnover,RSML,Reliance Spinning Mills Limited,2669.0,1.7149,45.0,119344454.6,44882.0,550.0
+4,turnover,GHL,Ghalemdi Hydro Limited,323.0,-0.3086,-1.0,104032572.9,322936.0,544.0
+5,turnover,SHPC,Sanima Mai Hydropower Ltd.,558.3,0.9584,5.3,92432928.2,165070.0,401.0
+6,turnover,SHIVM,SHIVAM CEMENTS LTD,685.0,0.1755,1.2,80536802.6,117682.0,258.0
+7,turnover,CFCL,Central Finance Co. Ltd.,598.0,-1.157,-7.0,70120709.4,117127.0,269.0
+8,turnover,API,Api Power Company Ltd.,333.7,0.2102,0.7,66843552.6,200280.0,634.0
+9,turnover,CBBL,Chhimek Laghubitta Bittiya Sanstha Limited,987.0,-0.2829,-2.8,58910881.1,59602.0,339.0
+10,turnover,RFPL,River Falls Power Limited,375.0,2.0408,7.5,56718501.1,151200.0,346.0
+11,turnover,GBIME,Global IME Bank Limited,266.0,0.3017,0.8,55833870.9,210512.0,416.0
+12,turnover,AKJCL,Ankhu Khola Jalvidhyut Company Ltd,343.9,-0.6069,-2.1,52862809.5,153871.0,360.0
+13,turnover,KBL,Kumari Bank Limited,230.0,-0.4329,-1.0,48876044.2,212487.0,395.0
+14,turnover,SAHAS,Sahas Urja Limited,722.0,0.979,7.0,48617764.7,67565.0,316.0
+15,turnover,BENH,Beni Hydropower Project Limited,840.0,5.7801,45.9,46994108.7,56719.0,1898.0
