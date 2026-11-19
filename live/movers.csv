@@ -1,0 +1,46 @@
+rank,list_type,symbol,security_name,ltp,percent_change,point_change,turnover,qty,total_trades
+1,gainer,BNL,Bottlers Nepal (Balaju) Limited,14840.0,6.0,840.0,721599.0,50.0,5.0
+2,gainer,BNT,Bottlers Nepal (Terai) Limited,12750.0,5.63,679.6,16761130.0,1318.0,87.0
+3,gainer,GMLI,Guardian Micro Life Insurance Limited ,891.9,4.81,40.9,1451807.3,1687.0,64.0
+4,gainer,MHL,Mandakini Hydropower Limited,521.9,4.46,22.3,45248853.2,88358.0,268.0
+5,gainer,BFC,Best Finance Company Ltd.,477.9,3.44,15.9,37853505.4,80433.0,281.0
+6,gainer,SGHC,Swet-Ganga Hydropower & Construction Limited ,365.0,3.4,12.0,81736877.9,227264.0,762.0
+7,gainer,MCHL,Menchhiyam Hydropower Limited,261.0,3.33,8.4,608153.3,2380.0,40.0
+8,gainer,SHL,Soaltee Hotel Limited,564.8,3.25,17.8,114723053.3,205799.0,494.0
+9,gainer,SBID2090,7% Nepal SBI Bank Debenture 2090,1122.7,3.0,32.7,56135.0,50.0,1.0
+10,gainer,RMF2,RBB Mutual Fund 2,9.66,2.99,0.28,4974.9,515.0,1.0
+11,gainer,NBF3,Nabil Balanced Fund-3,9.32,2.98,0.27,18989.75,2075.0,13.0
+12,gainer,C30MF,Citizens Super 30 Mutual Fund,9.7,2.75,0.26,4898.5,505.0,4.0
+13,gainer,SHLB,Shrijanshil Laghubitta Bittiya Sanstha Limited,1270.0,2.7,33.4,379128.0,303.0,12.0
+14,gainer,SANVI,Sanvi Energy Limited,503.0,2.65,13.0,11390154.2,22705.0,278.0
+15,gainer,PURE,Pure Energy Limited,749.8,2.43,17.8,4379190.4,5933.0,83.0
+1,loser,ECL,Everest Colour Limited,1021.1,-5.45,-58.9,11443390.6,10882.0,251.0
+2,loser,PMLI,Prabhu Mahalaxmi Life Insurance Limited,388.7,-5.43,-22.3,58906376.8,153300.0,748.0
+3,loser,MKCL,Muktinath Krishi Company Limited,665.0,-4.32,-30.0,6256590.9,9475.0,148.0
+4,loser,NWCL,Nepal Warehousing Company Limited ,459.2,-3.63,-17.3,3107468.7,6692.0,85.0
+5,loser,BENH,Beni Hydropower Project Limited,826.0,-3.55,-30.4,28726672.0,35271.0,1143.0
+6,loser,NMIC,Nepal Micro Insurance Company Limited,728.0,-2.93,-22.0,3371203.6,4555.0,105.0
+7,loser,SLBSL,Samudayik Laghubitta Bittiya Sanstha Limited,811.5,-2.81,-23.5,671051.0,824.0,20.0
+8,loser,SLCF,Sanima Large Cap Fund,9.26,-2.63,-0.25,14816.0,1600.0,3.0
+9,loser,NRM,Nepal Republic Media Limited,290.3,-2.58,-7.7,988272.0,3360.0,68.0
+10,loser,CCBD88,Century Debenture 2088,1250.0,-2.52,-32.3,12500.0,10.0,1.0
+11,loser,CKHL,Chirkhwa Hydropower Limited ,405.0,-2.41,-10.0,24077214.5,60453.0,308.0
+12,loser,FOWAD,Forward Microfinance Laghubitta Bittiya Sanstha Limited,844.0,-2.31,-20.0,5271175.7,6232.0,84.0
+13,loser,SNORL,Snow Rivers Limited,748.0,-2.25,-17.2,7522592.0,10019.0,168.0
+14,loser,SPC,Samling Power Company Limited,416.9,-2.09,-8.9,5675268.6,13669.0,89.0
+15,loser,GLBSL,Gurans Laghubitta Bittiya Sanstha Limited,1435.0,-2.05,-30.0,178537.2,124.0,7.0
+1,turnover,NICA,NIC Asia Bank Ltd.,340.1,-0.5556,-1.9,167856256.8,487633.0,1386.0
+2,turnover,PHCL,Peoples Hydropower Company Limited,369.0,1.0959,4.0,151639147.9,410654.0,898.0
+3,turnover,CFCL,Central Finance Co. Ltd.,594.5,0.7798,4.6,126201345.9,210334.0,652.0
+4,turnover,SHL,Soaltee Hotel Limited,564.8,3.2541,17.8,114723053.3,205799.0,494.0
+5,turnover,SAHAS,Sahas Urja Limited,724.0,-0.5768,-4.2,111630341.0,153278.0,498.0
+6,turnover,RSML,Reliance Spinning Mills Limited,2735.0,0.1832,5.0,103057020.5,37680.0,419.0
+7,turnover,SHPC,Sanima Mai Hydropower Ltd.,556.0,-1.0676,-6.0,95419725.7,170226.0,421.0
+8,turnover,GBIME,Global IME Bank Limited,268.5,1.8975,5.0,92660590.8,346179.0,671.0
+9,turnover,SHIVM,SHIVAM CEMENTS LTD,671.0,1.1304,7.5,89400736.6,134545.0,439.0
+10,turnover,SGHC,Swet-Ganga Hydropower & Construction Limited ,365.0,3.3994,12.0,81736877.9,227264.0,762.0
+11,turnover,SANIMA,Sanima Bank Limited,402.7,1.6662,6.6,78244962.1,195587.0,261.0
+12,turnover,GVL,Green Ventures Limited,560.0,-0.5329,-3.0,59503165.2,105665.0,223.0
+13,turnover,PMLI,Prabhu Mahalaxmi Life Insurance Limited,388.7,-5.4258,-22.3,58906376.8,153300.0,748.0
+14,turnover,CHDC,CEDB Holdings Limited,2215.0,-1.1161,-25.0,58206759.0,26293.0,303.0
+15,turnover,NRN,NRN Infrastructure and Development Limited,1395.5,-1.5798,-22.4,57375864.3,40744.0,282.0

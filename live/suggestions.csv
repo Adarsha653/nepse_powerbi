@@ -1,0 +1,16 @@
+rank,symbol,security_name,ltp,percent_change,turnover,qty,total_trades,attractiveness_score,suggestion_reason,is_suggested
+1,CFCL,Central Finance Co. Ltd.,594.5,0.7798,126201345.9,210334.0,652.0,79.48,High turnover (liquid); Steady positive move; Mid 52-week range,1
+2,PHCL,Peoples Hydropower Company Limited,369.0,1.0959,151639147.9,410654.0,898.0,76.09,High turnover (liquid); Active trading; Steady positive move,1
+3,NICA,NIC Asia Bank Ltd.,340.1,-0.5556,167856256.8,487633.0,1386.0,75.0,High turnover (liquid); Active trading; Mid 52-week range,1
+4,SGHC,Swet-Ganga Hydropower & Construction Limited ,365.0,3.3994,81736877.9,227264.0,762.0,70.47,Decent turnover; Steady positive move; Mid 52-week range,1
+5,SHIVM,SHIVAM CEMENTS LTD,671.0,1.1304,89400736.6,134545.0,439.0,67.64,Decent turnover; Steady positive move; Mid 52-week range,1
+6,SHL,Soaltee Hotel Limited,564.8,3.2541,114723053.3,205799.0,494.0,61.47,High turnover (liquid); Steady positive move; Near 52-week high,1
+7,GBIME,Global IME Bank Limited,268.5,1.8975,92660590.8,346179.0,671.0,56.76,Decent turnover; Steady positive move,1
+8,BHCL,Bikash Hydropower Company Limited,550.9,0.8974,53490686.0,97420.0,150.0,54.91,Decent turnover; Steady positive move; Mid 52-week range,1
+9,KBL,Kumari Bank Limited,229.9,0.7008,38060165.3,165835.0,383.0,54.6,Steady positive move; Mid 52-week range,1
+10,RSML,Reliance Spinning Mills Limited,2735.0,0.1832,103057020.5,37680.0,419.0,53.6,Decent turnover; Mid 52-week range,1
+11,SYPNL,SY Panel Nepal Limited,1268.0,0.6349,37344936.4,29822.0,325.0,53.59,Steady positive move; Mid 52-week range,1
+12,BFC,Best Finance Company Ltd.,477.9,3.4416,37853505.4,80433.0,281.0,53.08,Steady positive move; Mid 52-week range,1
+13,GCIL,Ghorahi Cement Industry Limited,343.4,1.5976,40774772.6,118708.0,569.0,50.93,Steady positive move; Near 52-week low (higher risk),1
+14,PCBL,Prime Commercial Bank Ltd.,270.9,0.6315,33150766.9,122075.0,174.0,50.41,Steady positive move; Mid 52-week range,1
+15,LBBL,Lumbini Bikas Bank Ltd.,524.6,0.5944,26820696.0,51272.0,123.0,48.17,Steady positive move; Mid 52-week range,1
