@@ -1,0 +1,46 @@
+rank,list_type,symbol,security_name,ltp,percent_change,point_change,turnover,qty,total_trades
+1,gainer,UNLB,Unique Nepal Laghubitta Bittiya Sanstha Limited,1246.9,4.88,58.0,13719.0,11.0,2.0
+2,gainer,LUK,Laxmi Unnati Kosh,9.73,4.29,0.4,96223.0,10200.0,5.0
+3,gainer,GMLI,Guardian Micro Life Insurance Limited ,854.9,4.0,32.9,918312.5,1097.0,56.0
+4,gainer,HATHY,Hathway Investment Nepal Limited,418.0,3.98,16.0,118002408.7,281960.0,1193.0
+5,gainer,NICSF,NIC Asia Select Fund 30,9.23,3.82,0.34,199927.0,22300.0,13.0
+6,gainer,ICFCD89,8% ICFC Finance Limited Debenture 2089,1165.0,3.45,38.9,1154972.9,994.0,19.0
+7,gainer,APHL,Appolo Hydropower Limited,579.0,3.02,17.0,4091677.6,7105.0,114.0
+8,gainer,ENL,Emerging Nepal Limited,477.0,3.02,14.0,27722256.6,58031.0,281.0
+9,gainer,SAHAS,Sahas Urja Limited,757.0,2.99,22.0,155566269.5,207037.0,1065.0
+10,gainer,MPFL,Multipurpose Finance Company  Limited,568.0,2.82,15.6,7285075.3,13140.0,54.0
+11,gainer,PPL,People's Power Limited,324.8,2.78,8.8,22603469.5,69321.0,330.0
+12,gainer,BHCL,Bikash Hydropower Company Limited,556.0,2.21,12.0,37572028.7,68302.0,264.0
+13,gainer,GBILD84/85,"Global IME Bank Debenture, 2084/85",1115.0,2.2,24.0,557500.0,500.0,1.0
+14,gainer,NIFRAGED,Nifra Green Energy Debenture 6% - 2088/89,1073.0,2.08,21.9,176272.5,165.0,2.0
+15,gainer,NIBD84,8.5% Nepal Investment Bank Debenture 2084,1055.0,1.92,19.9,26375.0,25.0,1.0
+1,loser,LSH12,LS Horizon 12,9.2,-4.76,-0.46,3716.0,400.0,3.0
+2,loser,ECL,Everest Colour Limited,1026.5,-4.6,-49.5,11229665.4,10808.0,156.0
+3,loser,SAPIL,Sarvottam Paints Industries Limited,944.0,-3.48,-34.0,8963345.5,9401.0,150.0
+4,loser,SCB,Standard Chartered Bank Limited,665.0,-3.48,-24.0,24512813.1,36823.0,232.0
+5,loser,JSLBB,Janautthan Samudayic Laghubitta Bittya Sanstha Limited,850.0,-3.41,-30.0,1527425.0,1797.0,32.0
+6,loser,SKHEL,Suryakunda Hydro Electric Limited,697.0,-3.33,-24.0,1398741.0,2000.0,22.0
+7,loser,SGHC,Swet-Ganga Hydropower & Construction Limited ,369.6,-3.25,-12.4,108273585.1,290963.0,596.0
+8,loser,SOPL,Sopan Pharmaceuticals Limited,587.0,-3.14,-19.0,25974212.5,43487.0,512.0
+9,loser,MKCL,Muktinath Krishi Company Limited,656.0,-3.1,-21.0,1263268.6,1886.0,45.0
+10,loser,KEF,Kumari Equity Fund,9.9,-2.94,-0.3,146401.0,14900.0,9.0
+11,loser,SMATA,Samata Gharelu Laghubitta Bittiya Sanstha Limited,614.5,-2.92,-18.5,6959371.0,11413.0,109.0
+12,loser,MHNL,Mountain Hydro Nepal Limited,283.6,-2.84,-8.3,15188642.6,53118.0,194.0
+13,loser,NIMBD90,10% NIMB Debenture 2090,1255.0,-2.64,-34.0,31375.0,25.0,1.0
+14,loser,RMF2,RBB Mutual Fund 2,9.26,-2.63,-0.25,926.0,100.0,1.0
+15,loser,KSY,Kumari Sabal Yojana,8.96,-2.61,-0.24,424271.37,46891.0,9.0
+1,turnover,HURJA,Himalaya Urja Bikas Company Limited,291.5,0.1374,0.4,240051686.3,806043.0,1965.0
+2,turnover,PHCL,Peoples Hydropower Company Limited,381.9,-0.1569,-0.6,227648118.1,593341.0,1017.0
+3,turnover,NICA,NIC Asia Bank Ltd.,325.0,-0.0615,-0.2,181537286.6,560585.0,1523.0
+4,turnover,LSL,Laxmi Sunrise Bank Limited,286.8,-1.0693,-3.1,155638646.3,539263.0,697.0
+5,turnover,SAHAS,Sahas Urja Limited,757.0,2.9932,22.0,155566269.5,207037.0,1065.0
+6,turnover,GBIME,Global IME Bank Limited,278.9,-1.7958,-5.1,126550656.1,449079.0,1064.0
+7,turnover,HATHY,Hathway Investment Nepal Limited,418.0,3.9801,16.0,118002408.7,281960.0,1193.0
+8,turnover,KBL,Kumari Bank Limited,235.2,-1.1765,-2.8,113720074.9,480994.0,505.0
+9,turnover,RSML,Reliance Spinning Mills Limited,2765.0,0.4031,11.1,111305371.0,40291.0,456.0
+10,turnover,SGHC,Swet-Ganga Hydropower & Construction Limited ,369.6,-3.2461,-12.4,108273585.1,290963.0,596.0
+11,turnover,NMB,NMB Bank Limited,283.0,-1.9744,-5.7,92596262.6,322593.0,702.0
+12,turnover,LBBL,Lumbini Bikas Bank Ltd.,544.5,-0.2747,-1.5,91279246.5,167388.0,313.0
+13,turnover,SHPC,Sanima Mai Hydropower Ltd.,572.3,1.4716,8.3,86640395.6,152032.0,358.0
+14,turnover,AKJCL,Ankhu Khola Jalvidhyut Company Ltd,333.9,0.3004,1.0,84875257.6,251718.0,379.0
+15,turnover,GHL,Ghalemdi Hydro Limited,323.3,0.0929,0.3,73737459.8,227431.0,324.0
